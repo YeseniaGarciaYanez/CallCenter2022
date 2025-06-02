@@ -1,0 +1,26 @@
+﻿{
+    // si usan la autenticacion de microsoft para el sql server utilicen esta parte del JSON
+    "sqlServer": {
+        "Server": "Laptop-Elihu\\MSSQLSERVER01",
+        "Database": "callcenter2025",
+        "Trusted_Connection": "True",
+        "TrustServer_Certificate": "True"
+    }
+
+    /*
+    "sql.Server": {
+        "Server": "Laptop-Elihu\\MSSQLSERVER01",
+        "Database": "callcenter2025",
+        "User": "root2",
+        "Password": "Chester12"
+    }*/
+
+    ,
+    "Paths": {
+        "Domain": "http://localhost:8080/callcenter2025/",
+        "Photos": {
+            "Users": "photos/users",
+            "Agents": "photos/Agents"
+        }
+    }
+}
